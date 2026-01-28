@@ -1,0 +1,23 @@
+
+
+body {
+    background-color: #213C51;
+
+}
+h1 {
+    color: #DDAED3;
+    margin:0;
+}
+
+/* 6594B1 */
+.boxThingy {
+    background-color: #6594B1;
+    margin: 10px;
+    padding: 5px;
+}
+
+
+p {
+    color: #EEEEEE;
+    margin: 5px;
+}
