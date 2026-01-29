@@ -1,0 +1,1 @@
+Y'know whats better then having your readme on your profile? Having a page with the same thing as your readme on it.  
