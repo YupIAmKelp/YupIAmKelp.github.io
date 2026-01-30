@@ -4,9 +4,14 @@ body {
     background-color: #213C51;
 
 }
+
+/* use this color late for like lines n shit: #DDAED3*/
+
 h1 {
-    color: #DDAED3;
+    color: #EEEEEE;
     margin:0;
+    display: inline-block;
+    border-bottom: 2px solid #DDAED3 ;
 }
 
 /* 6594B1 */
@@ -14,8 +19,12 @@ h1 {
     background-color: #6594B1;
     margin: 10px;
     padding: 5px;
+    border-radius: 5px;
 }
 
+.hideThis {
+    display: none;
+}
 
 p {
     color: #EEEEEE;
