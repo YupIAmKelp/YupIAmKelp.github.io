@@ -22,11 +22,12 @@ h1 {
     border-radius: 5px;
 }
 
-.hideThis {
-    display: none;
-}
-
 p {
     color: #EEEEEE;
     margin: 5px;
+}
+
+.hideThis {
+    display: none;
+    color: #EEEEEE;
 }
