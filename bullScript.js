@@ -15,7 +15,8 @@ var quotes = [
     {  author: "Aldous Huxley", origin: "<i>Brave New World</i>"},
     {  author: "Philip K. Dick", origin: "<i>Do Androids Dream Of Electric Sheep?/i>"},
     {  author: "Joseph Heller", origin: "<i>Catch-22/i>"},
-    {  author: "Joseph Heller", origin: "<i>Catch-22/i>"}
+    {  author: "Joseph Heller", origin: "<i>Catch-22/i>"},
+    {  author: "Kurt Vonnegut", origin: "<i>Cat's Cradle</i>"}
 ]; // this is stupid, not gonna do it this way.
 
 function randomQuote() {
