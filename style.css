@@ -1,14 +1,15 @@
 
-
-body {
-    background-color: #213C51;
+* {
     font-family: "Brush Script MT","Lucida Handwriting", cursive;
-
+}
+/* things that should be the defaults:*/
+h1 {
+    color: #EEEEEE;
+    margin:0;
+    border-bottom: 2px solid #DDAED3 ;
 }
 
-/* use this color late for like lines n shit: #DDAED3*/
-
-h1 {
+h2 {
     color: #EEEEEE;
     margin:0;
     display: inline-block;
@@ -17,7 +18,7 @@ h1 {
 
 /* 6594B1 */
 .boxThingy {
-    background-color: #6594B1;
+    /*background-color: #6594B1; */
     margin: 10px;
     padding: 5px;
     border-radius: 5px;
@@ -27,6 +28,67 @@ p {
     color: #EEEEEE;
     margin: 5px;
 }
+
+a {
+    color:#DDAED3;
+}
+
+button {
+    color: #213C51;
+    background-color:#DDAED3;
+    font-weight: bold;
+}
+
+body {
+    background-color: #213C51;
+    margin:0;
+}
+
+/* The exceptions:*/
+
+header {
+    background-color:#6594B1;
+    padding:15px;
+    width: 100% - 15px;
+    margin:0 auto 0 auto;
+    border:0 auto 0 auto;
+}
+
+#headerContents {
+    display: flex;
+    height:50px;
+    align-items: center; 
+}
+
+#headerContents ul {
+    list-style-type: none;
+    margin: 0;
+    align-items: center; 
+}
+
+#headerContents ul li {
+    float: left;
+}
+
+#headerContents ul li a {
+    margin: 10px;
+    padding: 10px 16px;
+    color:#EEEEEE;
+    background-color: #213C51;
+    border-bottom: 4px solid #DDAED3;
+    border-top: 4px solid #213C51;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#headerContents ul li #currentPage {
+    border-top: 4px solid #DDAED3;
+    border-bottom: 4px solid #DDAED3;
+    background-color: #DDAED3;
+    color:#213C51;
+}
+
+/* use this color late for like lines n shit: #DDAED3*/
 
 .hideThis {
     display: none;
