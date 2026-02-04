@@ -34,7 +34,6 @@ var quotes = [
     {  author: "Anthony Burgess", origin: "<i>A Clockwork Orange</i>"},
     {  author: "John Green", origin: "<i>The Fault in Our Stars</i>"},
     {  author: "John Green", origin: "(multiple sources)"},
-    {  author: "A teacher I once had", origin: "I don't remember."},
     {  author: "Tim O'Brien", origin: "<i>The Things They Carried</i>"},
     {  author: "Tim O'Brien", origin: "<i>The Things They Carried</i>"},
     {  author: "Tim O'Brien", origin: "<i>The Things They Carried</i>"},
@@ -50,8 +49,7 @@ var quotes = [
     {  author: "Isaac Asimov", origin: "<i>Foundation</i>"},
     {  author: "Charles Yu", origin: "<i>How to Live Safely in a Science Fictional Universe</i>"},
     {  author: "Charles Yu", origin: "<i>How to Live Safely in a Science Fictional Universe</i>"},
-    {  author: "Charles Yu", origin: "<i>How to Live Safely in a Science Fictional Universe</i>"},
-    {  author: "Me", origin: "Just now"}
+    {  author: "Charles Yu", origin: "<i>How to Live Safely in a Science Fictional Universe</i>"}
 
     
 ]; // this is stupid, not gonna do it this way.
